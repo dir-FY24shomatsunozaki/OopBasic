@@ -1,6 +1,7 @@
 package company;
 
 public class Department {
+    //定義
     private final String name;
     private final String departmentId;
     private int budget;
@@ -12,6 +13,8 @@ public class Department {
         this.budget = budget;
     }
     
+    
+    //メソッド
     public void meeting() {
         System.out.println("部内会議を開催します。部署：" + name + "、予算：" + budget);
     }
