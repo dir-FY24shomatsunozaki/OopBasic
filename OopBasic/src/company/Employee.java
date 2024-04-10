@@ -20,10 +20,11 @@ public abstract class Employee implements Workable {
         System.out.println(times + "回目の報告をします。役職：" + position + "、名前：" + name);
     }
 
-    //report() = report(1)　の定義
+    
     public void report() {
         report(1);
     }
+    
     
     //メソッド
     public abstract void joinMeeting();
